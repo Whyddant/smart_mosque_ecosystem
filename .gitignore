@@ -1,0 +1,35 @@
+# --- PlatformIO Specific ---
+.pio/
+.pioenvs/
+.piolibdeps/
+/lib/README
+/test/README
+
+# --- VS Code & IDE Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Build Artifacts ---
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+*.a
+*.lib
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Secrets (PENTING!) ---
+# Jangan upload file yang berisi password WiFi atau kunci API
+secrets.h
+include/secrets.h
+src/secrets.h
+.env
