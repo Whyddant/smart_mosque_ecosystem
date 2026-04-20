@@ -1,0 +1,1 @@
+# smart_mosque_ecosystem
